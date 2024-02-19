@@ -1,0 +1,86 @@
+body {
+    background-color: #fdd9e5;
+    }
+    
+    h2 {
+        color:#fe036a;
+        text-align: center;
+        font-weight: bolder;
+    }
+    
+    /* Style for the entire table */
+    table {
+        width: 100%;
+        border-radius: 5px;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        color: #ffe5ec;
+    }
+    
+    /* Style for table headers */
+    th {
+        background-color: #fb6f92;
+        font-weight: bold;
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #fcfbf4;
+    }
+    
+    /* Hover effect for headers */
+    th:hover {
+        background-color: #fe036a;
+        cursor: pointer;
+    }
+    
+    /* Style for even rows */
+    tr:nth-child(even) {
+        background-color: #ff8fab;
+    }
+    
+    /* Style for odd rows */
+    tr:nth-child(odd) {
+        background-color: #ffc2d1;
+    }
+    
+    /* Style for cells */
+    td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #FCFBF4;
+    }
+    
+    /* Hover effect */
+    tr:hover {
+        background-color: #fe036a;
+        cursor: pointer;
+    }
+
+    #theModal {
+        display: none;
+        position: fixed;
+        top: 0; /* Position at the top */
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    }
+    
+    .modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    

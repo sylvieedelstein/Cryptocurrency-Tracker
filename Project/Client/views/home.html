@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="/js/global.js"></script>
+    <script src="/js/home.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+
+    <h2>Cryptocurrency Tracker</h2>
+
+    <table id="cryptoTable">
+        <thead>
+            <th id="rank">Rank</th>
+            <th id="name">Name</th>
+            <th id="symbol">Symbol</th>
+            <th id="price">Price (USD)</th>
+            <th id="change">24hr Change %</th>
+            <th id="marketCap">Market Cap (USD)</th>
+            <th id="supply">Supply</th>
+            <th id="volume">Volume (24hr)</th>
+            <th id="vwap">VWA Price (24hr)</th>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+    </table>
+
+    <div id="theModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div>
+                <h2>Cryptocurrency Details</h2>
+            </div>
+
+            <div class="modal-body">
+                <table id="modalCryptoTable">
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Symbol</th>
+                        <th>Price (USD)</th>
+                        <th>24h Change (%)</th>
+                        <th>Market Cap (USD)</th>
+                        <th>Supply</th>
+                        <th>Volume (24h)</th>
+                        <th>Volume-Weighted Average Price (24h)</th>
+                        <th>Last Updated</th>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Buying Crypto-->
+            <form id="buy">
+                <label for="shares">Number of Shares</label><br>
+                <input type="text" id="shares" required><br>
+                <input id="Buy" type="submit" value="Buy">
+            </form>
+
+            <div id="bought" style="display: none;">
+                This is the text that appears when you click the button.
+            </div>
+
+        </div>
+</body>
+
+</html>

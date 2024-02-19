@@ -1,0 +1,30 @@
+/* universal font */
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+/* universal navbar functionality */
+.navbar {
+    background-color: #ee7c99;
+    color: #fe036a;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-evenly;
+}
+
+.navbar li a {
+    color: #fcfbf4; 
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+

@@ -1,0 +1,49 @@
+/* styles the top text */
+.text{
+    position: absolute;
+    text-align: center;
+    color: hotpink;
+    padding: 10px;
+    border-style: double;
+    border-color:hotpink;
+    border-radius: 25px;
+    background-color: lavender;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* styles the spacebar text */
+.spacebar{
+    position: absolute;
+    text-align: center;
+    color: hotpink;
+    padding: 10px;
+    border-style: double;
+    border-color:hotpink;
+    border-radius: 25px;
+    background-color: lavender;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: opacity 1s ease;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
